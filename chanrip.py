@@ -163,7 +163,7 @@ def main():
             resources = [link for link in resources if link not in previous]
         
         if not resources:
-            print(f'\r\n{g}Nothing new in this iteration!')
+            print(f'\r\n{w}Nothing new in this iteration!')
         else:
             print('[!] Now downloading!\r\n')
         
